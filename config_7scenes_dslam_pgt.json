@@ -1,0 +1,88 @@
+{
+  "scenes": [
+    {
+      "name": "Chess",
+      "pgt": "pgt/dslam/7scenes/chess_test.txt",
+      "estimates": [
+        {"algo": "Active Search", "estimated_poses":  "estimates/dslam/7scenes/chess_as.txt"},
+        {"algo": "HLoc", "estimated_poses":  "estimates/dslam/7scenes/chess_hloc.txt"},
+        {"algo": "DVLAD+R2D2", "estimated_poses":  "estimates/dslam/7scenes/chess_r2d2_rgb.txt"},
+        {"algo": "DVLAD+R2D2 (+D)", "estimated_poses":  "estimates/dslam/7scenes/chess_r2d2_rgbd.txt"},
+        {"algo": "DSAC*", "estimated_poses":  "estimates/dslam/7scenes/chess_dsac_rgb.txt"},
+        {"algo": "DSAC* (+D)", "estimated_poses":  "estimates/dslam/7scenes/chess_dsac_rgbd.txt"}
+      ]
+    },
+    {
+      "name": "Fire",
+      "pgt": "pgt/dslam/7scenes/fire_test.txt",
+      "estimates": [
+        {"algo": "Active Search", "estimated_poses":  "estimates/dslam/7scenes/fire_as.txt"},
+        {"algo": "HLoc", "estimated_poses":  "estimates/dslam/7scenes/fire_hloc.txt"},
+        {"algo": "DVLAD+R2D2", "estimated_poses":  "estimates/dslam/7scenes/fire_r2d2_rgb.txt"},
+        {"algo": "DVLAD+R2D2 (+D)", "estimated_poses":  "estimates/dslam/7scenes/fire_r2d2_rgbd.txt"},
+        {"algo": "DSAC*", "estimated_poses":  "estimates/dslam/7scenes/fire_dsac_rgb.txt"},
+        {"algo": "DSAC* (+D)", "estimated_poses":  "estimates/dslam/7scenes/fire_dsac_rgbd.txt"}
+      ]
+    },
+    {
+      "name": "Heads",
+      "pgt": "pgt/dslam/7scenes/heads_test.txt",
+      "estimates": [
+        {"algo": "Active Search", "estimated_poses":  "estimates/dslam/7scenes/heads_as.txt"},
+        {"algo": "HLoc", "estimated_poses":  "estimates/dslam/7scenes/heads_hloc.txt"},
+        {"algo": "DVLAD+R2D2", "estimated_poses":  "estimates/dslam/7scenes/heads_r2d2_rgb.txt"},
+        {"algo": "DVLAD+R2D2 (+D)", "estimated_poses":  "estimates/dslam/7scenes/heads_r2d2_rgbd.txt"},
+        {"algo": "DSAC*", "estimated_poses":  "estimates/dslam/7scenes/heads_dsac_rgb.txt"},
+        {"algo": "DSAC* (+D)", "estimated_poses":  "estimates/dslam/7scenes/heads_dsac_rgbd.txt"}
+      ]
+    },
+    {
+      "name": "Office",
+      "pgt": "pgt/dslam/7scenes/office_test.txt",
+      "estimates": [
+        {"algo": "Active Search", "estimated_poses":  "estimates/dslam/7scenes/office_as.txt"},
+        {"algo": "HLoc", "estimated_poses":  "estimates/dslam/7scenes/office_hloc.txt"},
+        {"algo": "DVLAD+R2D2", "estimated_poses":  "estimates/dslam/7scenes/office_r2d2_rgb.txt"},
+        {"algo": "DVLAD+R2D2 (+D)", "estimated_poses":  "estimates/dslam/7scenes/office_r2d2_rgbd.txt"},
+        {"algo": "DSAC*", "estimated_poses":  "estimates/dslam/7scenes/office_dsac_rgb.txt"},
+        {"algo": "DSAC* (+D)", "estimated_poses":  "estimates/dslam/7scenes/office_dsac_rgbd.txt"}
+      ]
+    },
+    {
+      "name": "Pumpkin",
+      "pgt": "pgt/dslam/7scenes/pumpkin_test.txt",
+      "estimates": [
+        {"algo": "Active Search", "estimated_poses":  "estimates/dslam/7scenes/pumpkin_as.txt"},
+        {"algo": "HLoc", "estimated_poses":  "estimates/dslam/7scenes/pumpkin_hloc.txt"},
+        {"algo": "DVLAD+R2D2", "estimated_poses":  "estimates/dslam/7scenes/pumpkin_r2d2_rgb.txt"},
+        {"algo": "DVLAD+R2D2 (+D)", "estimated_poses":  "estimates/dslam/7scenes/pumpkin_r2d2_rgbd.txt"},
+        {"algo": "DSAC*", "estimated_poses":  "estimates/dslam/7scenes/pumpkin_dsac_rgb.txt"},
+        {"algo": "DSAC* (+D)", "estimated_poses":  "estimates/dslam/7scenes/pumpkin_dsac_rgbd.txt"}
+      ]
+    },
+    {
+      "name": "RedKitchen",
+      "pgt": "pgt/dslam/7scenes/redkitchen_test.txt",
+      "estimates": [
+        {"algo": "Active Search", "estimated_poses":  "estimates/dslam/7scenes/redkitchen_as.txt"},
+        {"algo": "HLoc", "estimated_poses":  "estimates/dslam/7scenes/redkitchen_hloc.txt"},
+        {"algo": "DVLAD+R2D2", "estimated_poses":  "estimates/dslam/7scenes/redkitchen_r2d2_rgb.txt"},
+        {"algo": "DVLAD+R2D2 (+D)", "estimated_poses":  "estimates/dslam/7scenes/redkitchen_r2d2_rgbd.txt"},
+        {"algo": "DSAC*", "estimated_poses":  "estimates/dslam/7scenes/redkitchen_dsac_rgb.txt"},
+        {"algo": "DSAC* (+D)", "estimated_poses":  "estimates/dslam/7scenes/redkitchen_dsac_rgbd.txt"}
+      ]
+    },
+    {
+      "name": "Stairs",
+      "pgt": "pgt/dslam/7scenes/stairs_test.txt",
+      "estimates": [
+        {"algo": "Active Search", "estimated_poses":  "estimates/dslam/7scenes/stairs_as.txt"},
+        {"algo": "HLoc", "estimated_poses":  "estimates/dslam/7scenes/stairs_hloc.txt"},
+        {"algo": "DVLAD+R2D2", "estimated_poses":  "estimates/dslam/7scenes/stairs_r2d2_rgb.txt"},
+        {"algo": "DVLAD+R2D2 (+D)", "estimated_poses":  "estimates/dslam/7scenes/stairs_r2d2_rgbd.txt"},
+        {"algo": "DSAC*", "estimated_poses":  "estimates/dslam/7scenes/stairs_dsac_rgb.txt"},
+        {"algo": "DSAC* (+D)", "estimated_poses":  "estimates/dslam/7scenes/stairs_dsac_rgbd.txt"}
+      ]
+    }
+  ]
+}

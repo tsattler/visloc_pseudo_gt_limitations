@@ -1,0 +1,148 @@
+{
+  "scenes": [
+    {
+      "name": "Apt1/Kitchen",
+      "pgt": "pgt/sfm/12scenes/apt1_kitchen_test.txt",
+      "estimates": [
+        {"algo": "Active Search", "estimated_poses":  "estimates/sfm/12scenes/apt1_kitchen_as.txt"},
+        {"algo": "HLoc", "estimated_poses":  "estimates/sfm/12scenes/apt1_kitchen_hloc.txt"},
+        {"algo": "DVLAD+R2D2", "estimated_poses":  "estimates/sfm/12scenes/apt1_kitchen_r2d2_rgb.txt"},
+        {"algo": "DVLAD+R2D2 (+D)", "estimated_poses":  "estimates/sfm/12scenes/apt1_kitchen_r2d2_rgbd.txt"},
+        {"algo": "DSAC*", "estimated_poses":  "estimates/sfm/12scenes/apt1_kitchen_dsac_rgb.txt"},
+        {"algo": "DSAC* (+D)", "estimated_poses":  "estimates/sfm/12scenes/apt1_kitchen_dsac_rgbd.txt"}
+      ]
+    },
+    {
+      "name": "Apt1/Living",
+      "pgt": "pgt/sfm/12scenes/apt1_living_test.txt",
+      "estimates": [
+        {"algo": "Active Search", "estimated_poses":  "estimates/sfm/12scenes/apt1_living_as.txt"},
+        {"algo": "HLoc", "estimated_poses":  "estimates/sfm/12scenes/apt1_living_hloc.txt"},
+        {"algo": "DVLAD+R2D2", "estimated_poses":  "estimates/sfm/12scenes/apt1_living_r2d2_rgb.txt"},
+        {"algo": "DVLAD+R2D2 (+D)", "estimated_poses":  "estimates/sfm/12scenes/apt1_living_r2d2_rgbd.txt"},
+        {"algo": "DSAC*", "estimated_poses":  "estimates/sfm/12scenes/apt1_living_dsac_rgb.txt"},
+        {"algo": "DSAC* (+D)", "estimated_poses":  "estimates/sfm/12scenes/apt1_living_dsac_rgbd.txt"}
+      ]
+    },
+    {
+      "name": "Apt2/Bed",
+      "pgt": "pgt/sfm/12scenes/apt2_bed_test.txt",
+      "estimates": [
+        {"algo": "Active Search", "estimated_poses":  "estimates/sfm/12scenes/apt2_bed_as.txt"},
+        {"algo": "HLoc", "estimated_poses":  "estimates/sfm/12scenes/apt2_bed_hloc.txt"},
+        {"algo": "DVLAD+R2D2", "estimated_poses":  "estimates/sfm/12scenes/apt2_bed_r2d2_rgb.txt"},
+        {"algo": "DVLAD+R2D2 (+D)", "estimated_poses":  "estimates/sfm/12scenes/apt2_bed_r2d2_rgbd.txt"},
+        {"algo": "DSAC*", "estimated_poses":  "estimates/sfm/12scenes/apt2_bed_dsac_rgb.txt"},
+        {"algo": "DSAC* (+D)", "estimated_poses":  "estimates/sfm/12scenes/apt2_bed_dsac_rgbd.txt"}
+      ]
+    },
+    {
+      "name": "Apt2/Kitchen",
+      "pgt": "pgt/sfm/12scenes/apt2_kitchen_test.txt",
+      "estimates": [
+        {"algo": "Active Search", "estimated_poses":  "estimates/sfm/12scenes/apt2_kitchen_as.txt"},
+        {"algo": "HLoc", "estimated_poses":  "estimates/sfm/12scenes/apt2_kitchen_hloc.txt"},
+        {"algo": "DVLAD+R2D2", "estimated_poses":  "estimates/sfm/12scenes/apt2_kitchen_r2d2_rgb.txt"},
+        {"algo": "DVLAD+R2D2 (+D)", "estimated_poses":  "estimates/sfm/12scenes/apt2_kitchen_r2d2_rgbd.txt"},
+        {"algo": "DSAC*", "estimated_poses":  "estimates/sfm/12scenes/apt2_kitchen_dsac_rgb.txt"},
+        {"algo": "DSAC* (+D)", "estimated_poses":  "estimates/sfm/12scenes/apt2_kitchen_dsac_rgbd.txt"}
+      ]
+    },
+    {
+      "name": "Apt2/Living",
+      "pgt": "pgt/sfm/12scenes/apt2_living_test.txt",
+      "estimates": [
+        {"algo": "Active Search", "estimated_poses":  "estimates/sfm/12scenes/apt2_living_as.txt"},
+        {"algo": "HLoc", "estimated_poses":  "estimates/sfm/12scenes/apt2_living_hloc.txt"},
+        {"algo": "DVLAD+R2D2", "estimated_poses":  "estimates/sfm/12scenes/apt2_living_r2d2_rgb.txt"},
+        {"algo": "DVLAD+R2D2 (+D)", "estimated_poses":  "estimates/sfm/12scenes/apt2_living_r2d2_rgbd.txt"},
+        {"algo": "DSAC*", "estimated_poses":  "estimates/sfm/12scenes/apt2_living_dsac_rgb.txt"},
+        {"algo": "DSAC* (+D)", "estimated_poses":  "estimates/sfm/12scenes/apt2_living_dsac_rgbd.txt"}
+      ]
+    },
+    {
+      "name": "Apt2/Luke",
+      "pgt": "pgt/sfm/12scenes/apt2_luke_test.txt",
+      "estimates": [
+        {"algo": "Active Search", "estimated_poses":  "estimates/sfm/12scenes/apt2_luke_as.txt"},
+        {"algo": "HLoc", "estimated_poses":  "estimates/sfm/12scenes/apt2_luke_hloc.txt"},
+        {"algo": "DVLAD+R2D2", "estimated_poses":  "estimates/sfm/12scenes/apt2_luke_r2d2_rgb.txt"},
+        {"algo": "DVLAD+R2D2 (+D)", "estimated_poses":  "estimates/sfm/12scenes/apt2_luke_r2d2_rgbd.txt"},
+        {"algo": "DSAC*", "estimated_poses":  "estimates/sfm/12scenes/apt2_luke_dsac_rgb.txt"},
+        {"algo": "DSAC* (+D)", "estimated_poses":  "estimates/sfm/12scenes/apt2_luke_dsac_rgbd.txt"}
+      ]
+    },
+    {
+      "name": "Office1/Gates362",
+      "pgt": "pgt/sfm/12scenes/office1_gates362_test.txt",
+      "estimates": [
+        {"algo": "Active Search", "estimated_poses":  "estimates/sfm/12scenes/office1_gates362_as.txt"},
+        {"algo": "HLoc", "estimated_poses":  "estimates/sfm/12scenes/office1_gates362_hloc.txt"},
+        {"algo": "DVLAD+R2D2", "estimated_poses":  "estimates/sfm/12scenes/office1_gates362_r2d2_rgb.txt"},
+        {"algo": "DVLAD+R2D2 (+D)", "estimated_poses":  "estimates/sfm/12scenes/office1_gates362_r2d2_rgbd.txt"},
+        {"algo": "DSAC*", "estimated_poses":  "estimates/sfm/12scenes/office1_gates362_dsac_rgb.txt"},
+        {"algo": "DSAC* (+D)", "estimated_poses":  "estimates/sfm/12scenes/office1_gates362_dsac_rgbd.txt"}
+      ]
+    },
+    {
+      "name": "Office1/Gates381",
+      "pgt": "pgt/sfm/12scenes/office1_gates381_test.txt",
+      "estimates": [
+        {"algo": "Active Search", "estimated_poses":  "estimates/sfm/12scenes/office1_gates381_as.txt"},
+        {"algo": "HLoc", "estimated_poses":  "estimates/sfm/12scenes/office1_gates381_hloc.txt"},
+        {"algo": "DVLAD+R2D2", "estimated_poses":  "estimates/sfm/12scenes/office1_gates381_r2d2_rgb.txt"},
+        {"algo": "DVLAD+R2D2 (+D)", "estimated_poses":  "estimates/sfm/12scenes/office1_gates381_r2d2_rgbd.txt"},
+        {"algo": "DSAC*", "estimated_poses":  "estimates/sfm/12scenes/office1_gates381_dsac_rgb.txt"},
+        {"algo": "DSAC* (+D)", "estimated_poses":  "estimates/sfm/12scenes/office1_gates381_dsac_rgbd.txt"}
+      ]
+    },    
+    {
+      "name": "Office1/Lounge",
+      "pgt": "pgt/sfm/12scenes/office1_lounge_test.txt",
+      "estimates": [
+        {"algo": "Active Search", "estimated_poses":  "estimates/sfm/12scenes/office1_lounge_as.txt"},
+        {"algo": "HLoc", "estimated_poses":  "estimates/sfm/12scenes/office1_lounge_hloc.txt"},
+        {"algo": "DVLAD+R2D2", "estimated_poses":  "estimates/sfm/12scenes/office1_lounge_r2d2_rgb.txt"},
+        {"algo": "DVLAD+R2D2 (+D)", "estimated_poses":  "estimates/sfm/12scenes/office1_lounge_r2d2_rgbd.txt"},
+        {"algo": "DSAC*", "estimated_poses":  "estimates/sfm/12scenes/office1_lounge_dsac_rgb.txt"},
+        {"algo": "DSAC* (+D)", "estimated_poses":  "estimates/sfm/12scenes/office1_lounge_dsac_rgbd.txt"}
+      ]
+    },   
+    {
+      "name": "Office1/Manolis",
+      "pgt": "pgt/sfm/12scenes/office1_manolis_test.txt",
+      "estimates": [
+        {"algo": "Active Search", "estimated_poses":  "estimates/sfm/12scenes/office1_manolis_as.txt"},
+        {"algo": "HLoc", "estimated_poses":  "estimates/sfm/12scenes/office1_manolis_hloc.txt"},
+        {"algo": "DVLAD+R2D2", "estimated_poses":  "estimates/sfm/12scenes/office1_manolis_r2d2_rgb.txt"},
+        {"algo": "DVLAD+R2D2 (+D)", "estimated_poses":  "estimates/sfm/12scenes/office1_manolis_r2d2_rgbd.txt"},
+        {"algo": "DSAC*", "estimated_poses":  "estimates/sfm/12scenes/office1_manolis_dsac_rgb.txt"},
+        {"algo": "DSAC* (+D)", "estimated_poses":  "estimates/sfm/12scenes/office1_manolis_dsac_rgbd.txt"}
+      ]
+    }, 
+    {
+      "name": "Office2/5a",
+      "pgt": "pgt/sfm/12scenes/office2_5a_test.txt",
+      "estimates": [
+        {"algo": "Active Search", "estimated_poses":  "estimates/sfm/12scenes/office2_5a_as.txt"},
+        {"algo": "HLoc", "estimated_poses":  "estimates/sfm/12scenes/office2_5a_hloc.txt"},
+        {"algo": "DVLAD+R2D2", "estimated_poses":  "estimates/sfm/12scenes/office2_5a_r2d2_rgb.txt"},
+        {"algo": "DVLAD+R2D2 (+D)", "estimated_poses":  "estimates/sfm/12scenes/office2_5a_r2d2_rgbd.txt"},
+        {"algo": "DSAC*", "estimated_poses":  "estimates/sfm/12scenes/office2_5a_dsac_rgb.txt"},
+        {"algo": "DSAC* (+D)", "estimated_poses":  "estimates/sfm/12scenes/office2_5a_dsac_rgbd.txt"}
+      ]
+    },      
+    {
+      "name": "Office2/5b",
+      "pgt": "pgt/sfm/12scenes/office2_5b_test.txt",
+      "estimates": [
+        {"algo": "Active Search", "estimated_poses":  "estimates/sfm/12scenes/office2_5b_as.txt"},
+        {"algo": "HLoc", "estimated_poses":  "estimates/sfm/12scenes/office2_5b_hloc.txt"},
+        {"algo": "DVLAD+R2D2", "estimated_poses":  "estimates/sfm/12scenes/office2_5b_r2d2_rgb.txt"},
+        {"algo": "DVLAD+R2D2 (+D)", "estimated_poses":  "estimates/sfm/12scenes/office2_5b_r2d2_rgbd.txt"},
+        {"algo": "DSAC*", "estimated_poses":  "estimates/sfm/12scenes/office2_5b_dsac_rgb.txt"},
+        {"algo": "DSAC* (+D)", "estimated_poses":  "estimates/sfm/12scenes/office2_5b_dsac_rgbd.txt"}
+      ]
+    }     
+  ]
+}
