@@ -82,6 +82,22 @@ The parameter ```--error_max_images``` limits the max. number of frames used to 
 The default value of 1000 provides a good tradeoff between accuracy and speed. 
 Use ```--error_max_images -1``` to use all images which is most accurate but slow for 7Scenes.
 
+### Dependencies
+
+This code requires the following python packages, and we tested it with the package versions in brackets
+
+```
+pytorch (1.6.0)
+opencv (3.4.2)
+scikit-image (0.16.2)
+```
+
+The repository contains an `environment.yml` for the use with Conda:
+```bash
+conda env create -f environment.yml
+conda activate pgt
+```
+
 ### License Information
 
 Our evaluation code and data utility scripts are based on parts of [DSAC*](https://github.com/vislearn/dsacstar), and we provide our code under the same BSD-3 license.
