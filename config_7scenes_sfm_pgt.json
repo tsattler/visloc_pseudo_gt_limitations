@@ -1,7 +1,12 @@
 {
+  "name": "7Scenes",
+  "folder": "7scenes_source",
+  "image_width": 640,
+  "image_height": 480,
   "scenes": [
     {
       "name": "Chess",
+      "folder": "chess",
       "pgt": "pgt/sfm/7scenes/chess_test.txt",
       "estimates": [
         {"algo": "Active Search", "estimated_poses":  "estimates/sfm/7scenes/chess_as.txt"},
@@ -14,6 +19,7 @@
     },
     {
       "name": "Fire",
+      "folder": "fire",
       "pgt": "pgt/sfm/7scenes/fire_test.txt",
       "estimates": [
         {"algo": "Active Search", "estimated_poses":  "estimates/sfm/7scenes/fire_as.txt"},
@@ -26,6 +32,7 @@
     },
     {
       "name": "Heads",
+      "folder": "heads",
       "pgt": "pgt/sfm/7scenes/heads_test.txt",
       "estimates": [
         {"algo": "Active Search", "estimated_poses":  "estimates/sfm/7scenes/heads_as.txt"},
@@ -38,6 +45,7 @@
     },
     {
       "name": "Office",
+      "folder": "office",
       "pgt": "pgt/sfm/7scenes/office_test.txt",
       "estimates": [
         {"algo": "Active Search", "estimated_poses":  "estimates/sfm/7scenes/office_as.txt"},
@@ -50,6 +58,7 @@
     },
     {
       "name": "Pumpkin",
+      "folder": "pumpkin",
       "pgt": "pgt/sfm/7scenes/pumpkin_test.txt",
       "estimates": [
         {"algo": "Active Search", "estimated_poses":  "estimates/sfm/7scenes/pumpkin_as.txt"},
@@ -62,6 +71,7 @@
     },
     {
       "name": "RedKitchen",
+      "folder": "redkitchen",
       "pgt": "pgt/sfm/7scenes/redkitchen_test.txt",
       "estimates": [
         {"algo": "Active Search", "estimated_poses":  "estimates/sfm/7scenes/redkitchen_as.txt"},
@@ -74,6 +84,7 @@
     },
     {
       "name": "Stairs",
+      "folder": "stairs",
       "pgt": "pgt/sfm/7scenes/stairs_test.txt",
       "estimates": [
         {"algo": "Active Search", "estimated_poses":  "estimates/sfm/7scenes/stairs_as.txt"},

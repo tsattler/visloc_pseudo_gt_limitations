@@ -1,7 +1,12 @@
 {
+  "name": "12Scenes",
+  "folder": "12scenes_source",
+  "image_width": 1296,
+  "image_height": 968,
   "scenes": [
     {
       "name": "Apt1/Kitchen",
+      "folder": "apt1/kitchen",
       "pgt": "pgt/dslam/12scenes/apt1_kitchen_test.txt",
       "estimates": [
         {"algo": "Active Search", "estimated_poses":  "estimates/dslam/12scenes/apt1_kitchen_as.txt"},
@@ -14,6 +19,7 @@
     },
     {
       "name": "Apt1/Living",
+      "folder": "apt1/living",
       "pgt": "pgt/dslam/12scenes/apt1_living_test.txt",
       "estimates": [
         {"algo": "Active Search", "estimated_poses":  "estimates/dslam/12scenes/apt1_living_as.txt"},
@@ -26,6 +32,7 @@
     },
     {
       "name": "Apt2/Bed",
+      "folder": "apt2/bed",
       "pgt": "pgt/dslam/12scenes/apt2_bed_test.txt",
       "estimates": [
         {"algo": "Active Search", "estimated_poses":  "estimates/dslam/12scenes/apt2_bed_as.txt"},
@@ -38,6 +45,7 @@
     },
     {
       "name": "Apt2/Kitchen",
+      "folder": "apt2/kitchen",
       "pgt": "pgt/dslam/12scenes/apt2_kitchen_test.txt",
       "estimates": [
         {"algo": "Active Search", "estimated_poses":  "estimates/dslam/12scenes/apt2_kitchen_as.txt"},
@@ -50,6 +58,7 @@
     },
     {
       "name": "Apt2/Living",
+      "folder": "apt2/living",
       "pgt": "pgt/dslam/12scenes/apt2_living_test.txt",
       "estimates": [
         {"algo": "Active Search", "estimated_poses":  "estimates/dslam/12scenes/apt2_living_as.txt"},
@@ -62,6 +71,7 @@
     },
     {
       "name": "Apt2/Luke",
+      "folder": "apt2/luke",
       "pgt": "pgt/dslam/12scenes/apt2_luke_test.txt",
       "estimates": [
         {"algo": "Active Search", "estimated_poses":  "estimates/dslam/12scenes/apt2_luke_as.txt"},
@@ -74,6 +84,7 @@
     },
     {
       "name": "Office1/Gates362",
+      "folder": "office1/gates362",
       "pgt": "pgt/dslam/12scenes/office1_gates362_test.txt",
       "estimates": [
         {"algo": "Active Search", "estimated_poses":  "estimates/dslam/12scenes/office1_gates362_as.txt"},
@@ -86,6 +97,7 @@
     },
     {
       "name": "Office1/Gates381",
+      "folder": "office1/gates381",
       "pgt": "pgt/dslam/12scenes/office1_gates381_test.txt",
       "estimates": [
         {"algo": "Active Search", "estimated_poses":  "estimates/dslam/12scenes/office1_gates381_as.txt"},
@@ -98,6 +110,7 @@
     },    
     {
       "name": "Office1/Lounge",
+      "folder": "office1/lounge",
       "pgt": "pgt/dslam/12scenes/office1_lounge_test.txt",
       "estimates": [
         {"algo": "Active Search", "estimated_poses":  "estimates/dslam/12scenes/office1_lounge_as.txt"},
@@ -110,6 +123,7 @@
     },   
     {
       "name": "Office1/Manolis",
+      "folder": "office1/manolis",
       "pgt": "pgt/dslam/12scenes/office1_manolis_test.txt",
       "estimates": [
         {"algo": "Active Search", "estimated_poses":  "estimates/dslam/12scenes/office1_manolis_as.txt"},
@@ -122,6 +136,7 @@
     }, 
     {
       "name": "Office2/5a",
+      "folder": "office2/5a",
       "pgt": "pgt/dslam/12scenes/office2_5a_test.txt",
       "estimates": [
         {"algo": "Active Search", "estimated_poses":  "estimates/dslam/12scenes/office2_5a_as.txt"},
@@ -134,6 +149,7 @@
     },      
     {
       "name": "Office2/5b",
+      "folder": "office2/5b",
       "pgt": "pgt/dslam/12scenes/office2_5b_test.txt",
       "estimates": [
         {"algo": "Active Search", "estimated_poses":  "estimates/dslam/12scenes/office2_5b_as.txt"},
