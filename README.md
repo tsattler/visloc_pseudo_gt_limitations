@@ -55,15 +55,22 @@ These pose files follow the same format as our pGT files described previously, b
 
 Furthermore, we provide example config files corresponding to the main experiments in our paper.
 
-Calling:
+Call ```python evaluate_estimates.py --help``` for all available options.
+
+For evaluation on 7Scenes, using our SfM pGT, call:
 ```
 python evaluate_estimates.py config_7scenes_sfm_pgt.json
 ```
-Produces a new file ```config_7scenes_sfm_pgt_pose_err.pdf```:
+This produces a new file ```config_7scenes_sfm_pgt_pose_err.pdf```:
 
 ![](images/output_7scenes_sfm_pgt_pose_error.png)
 
-Call ```python evaluate_estimates.py --help``` for all available options.
+For the corresponding plot using the original D-SLAM pGT, call:
+```
+python evaluate_estimates.py config_7scenes_dslam_pgt.json
+```
+
+![](images/output_7scenes_dslam_pgt_pose_error.png)
 
 ### DCRE Computation
 
