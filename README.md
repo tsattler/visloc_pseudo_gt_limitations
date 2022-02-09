@@ -37,7 +37,8 @@ Each file contains one line per image that follows the format:
 rgb_file qw qx qy qz tx ty tz f
 ```
 Entries `q` and `t` represent the pose as quaternion and translation vector. 
-The pose maps world coordinates to camera coordinates, i.e. `p_cam = [R(q)|t] p_world`.
+The pose maps world coordinates to camera coordinates, i.e. `p_cam = R(q) p_world + t`. 
+This is the [same convention used by Colmap](https://colmap.github.io/format.html#images-txt).
 Entry `f` represents the focal length of the RGB sensor. 
 `f` was re-estimated by COLMAP and can differ slightly per scene.
 
