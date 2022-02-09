@@ -9,6 +9,18 @@ This repository contains the evaluation code and alternative pseudo ground truth
 </p>
 
 
+- [Pseudo Ground Truth for 7Scenes and 12Scenes](#pseudo-ground-truth-for-7scenes-and-12scenes)
+    - [Pose Files](#pose-files)
+    - [Full Reconstructions](#full-reconstructions)
+    - [License Information](#license-information)
+- [Evaluation Code](#evaluation-code)
+    - [Interpreting the Results](#interpreting-the-results)
+    - [DCRE Computation](#dcre-computation)
+    - [Uploading Your Method's Estimates](#uploading-your-methods-estimates)
+    - [Dependencies](#dependencies)
+    - [License Information](#license-information)
+- [Citation](#citation)
+
 ## Pseudo Ground Truth for 7Scenes and 12Scenes
 
 We generated alternative SfM-based pseudo ground truth (pGT) using [Colmap](https://colmap.github.io/index.html) to supplement the original D-SLAM-based pseudo ground truth of [7Scenes](https://www.microsoft.com/en-us/research/project/rgb-d-dataset-7-scenes/) and [12Scenes](http://graphics.stanford.edu/projects/reloc/).
@@ -72,6 +84,17 @@ python evaluate_estimates.py config_7scenes_dslam_pgt.json
 
 ![](images/output_7scenes_dslam_pgt_pose_error.png)
 
+### Interpreting the Results
+
+The plots above show very different rankings across methods. 
+Yet, as we discuss in our paper, both plots are valid since no version of the pGT is clearly superior to the other.
+Furthermore, it appears plausible that any version of pGT is only trustworthy up to a certain accuracy threshold. 
+However, it is non-obvious and currently unknown, how to determine such a trust threshold.
+We thus strongly discourage to draw any conclusions (beyond that a method might be overfitting to the imperfections of the pseudo ground
+truth) from the smaller thresholds alone.
+
+We advise to always evaluate methods under both versions of the pGT, and to show both evaluation results in juxtaposition unless specific reasons are given why one version of the pGT is preferred. 
+
 ### DCRE Computation
 
 DCRE computation is triggered with the option ```--error_type dcre_max``` or ```--error_type dcre_mean``` (see our paper for details). 
@@ -88,6 +111,31 @@ However, due to the large frame count in 7Scenes it can still take considerable 
 The parameter ```--error_max_images``` limits the max. number of frames used to calculate recall and cumulative errors. 
 The default value of 1000 provides a good tradeoff between accuracy and speed. 
 Use ```--error_max_images -1``` to use all images which is most accurate but slow for 7Scenes.
+
+### Uploading Your Method's Estimates
+
+We are happy to include updated evaluation results or evaluation results of new methods in this repository. 
+This would enable easy comparisons across methods with unified evaluation code, as we progress in the field. 
+
+If you want your results included, please provide estimates of your method under both pGT versions via a **pull request**.
+Please add your estimation files to a custom sub-folder under ```èstimates_external```, following our pose file convention described above.
+We would also ask that you provide a text file that links your results to a publication or tech report, or contains a description of how you obtained these results.
+
+```
+estimates_external
+├── someone_elses_method
+└── your_method
+    ├── info_your_method.txt
+    ├── dslam
+    │   ├── 7scenes
+    │   │   ├── chess_your_method.txt
+    │   │   ├── fire_your_method.txt
+    │   │   ├── ...
+    │   └── 12scenes
+    │       ├── ...
+    └── sfm
+        ├── ...
+```
 
 ### Dependencies
 
